@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Datos pesados
+datos/
+estado_cartera.json
+estado_guardian.json
+
+# IDEs
+.vscode/
+.idea/
+
+# Laboratorio
+datos_caos/
