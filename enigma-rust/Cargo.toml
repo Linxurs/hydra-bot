@@ -1,0 +1,21 @@
+[package]
+name = "enigma-rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "enigma-rust"
+path = "src/main.rs"
+
+[[bin]]
+name = "bloom-gen"
+path = "src/bloom_gen.rs"
+
+[dependencies]
+tiny-bip39 = "1.0.0"
+bitcoin = { version = "0.30.0", features = ["rand"] }
+rayon = "1.7.0"
+num_cpus = "1.15.0"
+secp256k1 = { version = "0.27.0", features = ["global-context", "rand"] }
+rand = "0.8.5"
+bloomfilter = "1.0.12"

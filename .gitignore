@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Datos y Bases de Datos (Demasiado pesados para GitHub)
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+datos/
+data/
+*.tsv.gz
+*.csv
+*.txt
+
+# Logs y Secretos (PELIGRO DE SEGURIDAD)
+*.log
+*.env
+*.dev.vars
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs
+.vscode/
+.idea/
+.cursor/
+
+# Rust
+**/target/
+**/debug/
+**/release/
+
+# Archivos temporales de Kaggle y Jupyter
+.ipynb_checkpoints

@@ -1,0 +1,14 @@
+{
+  "api_key": "FMPPKcz75BIBwd5pZ09JleQm74qw0pvBXQh53PalB24A4Bhof6IrZTsbRRTo1mW5",
+  "api_secret": "dsdCtnRLmPwUFO52WfxsxDetYQLevPHaiM1e7QP0fnMrgCwC5KDuntYEMuR78R70",
+  "use_demo": true,
+  "paper_mode": true,
+  "symbol": "BTCUSDT",
+  "soporte": 75000.0,
+  "resistencia": 80000.0,
+  "stop_loss_pct": 2.5,
+  "entry_zone_pct": 0.5,
+  "capital": 250.0,
+  "leverage": 10,
+  "demo_mode": false
+}
